@@ -23,6 +23,7 @@ class FetchUser extends React.Component {
         this.loaded();
       }
     }
+    this.loaded()
   }
 
   checkLocalToken = () => {

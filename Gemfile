@@ -10,10 +10,12 @@ gem 'puma', '~> 3.11'
 gem 'bootsnap', '>= 1.1.0', require: false
 # Authentication
 gem 'devise_token_auth'
+gem 'braintree'
 
 group :development, :test do
   # Debugging
   gem "pry"
+  gem 'dotenv-rails'
 end
 
 group :development do
